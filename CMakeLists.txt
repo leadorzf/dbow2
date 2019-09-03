@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(dbow2)
 include(ExternalProject)
-
+set(OpenCV_DIR /opt/ros/kinetic/share/OpenCV-3.3.1-dev)
 option(BUILD_DBoW2   "Build dbow2"            ON)
 option(BUILD_Demo    "Build demo application" ON)
 
